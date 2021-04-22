@@ -13,9 +13,7 @@ class spider:
         self.URL = "http://api.map.baidu.com/place/v2/search?query=" #多边形搜索
         self.baiduAk = [
             #这里要用自己申请到的key
-            'Fn9RKRQmsMgFrlBZSuEhGoGMHoyKb1lr',
-            '9xGRtSOWxqn6eIZFUCiGXWoKPXZI6v1n',
-            'ShRqM9gMQmdWkV0bp54lHgGjeU0nnF8A' 
+            #我把自己的删了，因为总是有人用，百度平台老是给我发警告邮件 
         ]
         self.keyNum = 0
         title = open('data/new_title.txt', 'r').read()
